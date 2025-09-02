@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.56f1 (9c7b5e468860) revision 10255198'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 32472 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-09-01T22:44:30Z
+Date: 2025-09-02T02:40:23Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.56f1\Editor\Unity.exe
@@ -16,7 +16,7 @@ C:/Users/Lima/OneDrive/Imagens/Projetos/RealWord/RealWord
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56791
+53165
 -job-worker-count
 5
 -background-job-worker-count
@@ -62,14 +62,14 @@ C:/Users/Lima/OneDrive/Imagens/Projetos/RealWord/RealWord
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8236]  Target information:
+Player connection [10980]  Target information:
 
-Player connection [8236]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2908494837 [EditorId] 2908494837 [Version] 1048832 [Id] WindowsEditor(7,Anderson) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10980]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2113242414 [EditorId] 2113242414 [Version] 1048832 [Id] WindowsEditor(7,Anderson) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8236]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 2908494837 [EditorId] 2908494837 [Version] 1048832 [Id] WindowsEditor(7,Anderson) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10980]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 2113242414 [EditorId] 2113242414 [Version] 1048832 [Id] WindowsEditor(7,Anderson) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8236] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8236] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10980] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10980] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -81,7 +81,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.26 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.56f1 (9c7b5e468860)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/Resources/UnitySubsystems
@@ -97,46 +97,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003815 seconds.
-- Loaded All Assemblies, in  0.387 seconds
+Registered in 0.002420 seconds.
+- Loaded All Assemblies, in  0.382 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 271 ms
+Android Extension - Scanning For ADB Devices 228 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.687 seconds
-Domain Reload Profiling: 1073ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.597 seconds
+Domain Reload Profiling: 978ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (161ms)
-		LoadAssemblies (125ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (131ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (156ms)
 			TypeCache.Refresh (154ms)
-				TypeCache.ScanAssembly (141ms)
+				TypeCache.ScanAssembly (142ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (688ms)
+	FinalizeReload (598ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (653ms)
+		SetupLoadedEditorAssemblies (555ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (359ms)
+			InitializePlatformSupportModulesInManaged (321ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (155ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,8 +145,8 @@ Domain Reload Profiling: 1073ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.765 seconds
-Refreshing native plugins compatible for Editor in 2.86 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.667 seconds
+Refreshing native plugins compatible for Editor in 2.75 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -163,39 +163,39 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.637 seconds
-Domain Reload Profiling: 1400ms
-	BeginReloadAssembly (212ms)
+- Finished resetting the current domain, in  0.615 seconds
+Domain Reload Profiling: 1281ms
+	BeginReloadAssembly (164ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (466ms)
-		LoadAssemblies (351ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (417ms)
+		LoadAssemblies (297ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (230ms)
-			TypeCache.Refresh (179ms)
-				TypeCache.ScanAssembly (163ms)
-			BuildScriptInfoCaches (40ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (638ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (150ms)
+			BuildScriptInfoCaches (37ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (616ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (508ms)
+		SetupLoadedEditorAssemblies (488ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
+			InitializePlatformSupportModulesInManaged (12ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (342ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (327ms)
 			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -214,16 +214,16 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
@@ -233,26 +233,10 @@ WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.69 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4774 unused Assets / (3.4 MB). Loaded Objects now: 5267.
-Memory consumption went from 91.4 MB to 87.9 MB.
-Total: 9.461300 ms (FindLiveObjects: 0.558500 ms CreateObjectMapping: 0.389300 ms MarkObjects: 5.244000 ms  DeleteObjects: 3.267800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 207528.635970 seconds.
-  path: Assets/Scenes/apple/textures/apple_u1_v1_normal.png
-  artifactKey: Guid(7789dae378a499f4faf7cac749ff1083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/apple/textures/apple_u1_v1_normal.png using Guid(7789dae378a499f4faf7cac749ff1083) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '651e201c6f09a0196e0f1fef387ffbae') in 0.1930502 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Scenes/apple/textures/Apple_u1_v1_roughness.png
-  artifactKey: Guid(7edbcd58aad56c04c9f60b28f3e711c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/apple/textures/Apple_u1_v1_roughness.png using Guid(7edbcd58aad56c04c9f60b28f3e711c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ea7a9dbb17ed9fda1ffea63b5e437b2') in 0.0370354 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Unloading 4774 unused Assets / (2.8 MB). Loaded Objects now: 5281.
+Memory consumption went from 92.4 MB to 89.6 MB.
+Total: 7.069400 ms (FindLiveObjects: 0.490500 ms CreateObjectMapping: 0.402900 ms MarkObjects: 4.111200 ms  DeleteObjects: 2.063400 ms)
 

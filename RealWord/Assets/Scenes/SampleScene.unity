@@ -548,6 +548,7 @@ GameObject:
   - component: {fileID: 2058207735}
   - component: {fileID: 2058207734}
   - component: {fileID: 2058207736}
+  - component: {fileID: 2058207737}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -606,6 +607,21 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: a5a664aff5220a242a08e3f071037e1f, type: 2}
   m_MaxNumberOfMovingImages: 0
   m_TrackedImagePrefab: {fileID: 0}
+--- !u!114 &2058207737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058207733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de42149b6164d214e953fa8250411444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackedImagePrefabs:
+  - imageName: Maca
+    prefab: {fileID: 3132270507340097879, guid: cb5f84db491bf40458667aa06c4b1414, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
